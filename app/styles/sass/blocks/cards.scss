@@ -1,0 +1,48 @@
+.cards {
+  background-color: $colorbtn;
+  display: flex;
+  justify-content: end;
+  &-block {
+    display: flex;
+    padding: 100px;
+    justify-content: end;
+    background: linear-gradient(
+      96.83deg,
+      rgba(255, 246, 240, 0.15) -7.5%,
+      rgba(237, 228, 221, 0.15) 12.16%,
+      rgba(184, 154, 132, 0.14556) 29.91%,
+      rgba(241, 207, 183, 0.139344) 46.69%,
+      rgba(157, 95, 50, 0.0910112) 62.84%,
+      rgba(83, 71, 63, 0.06) 84.58%
+    );
+
+    &-title-left {
+      position: absolute;
+      color: #fffaf6;
+      font-size: 65px;
+      font-weight: 400;
+      padding-top: 60px;
+    }
+    &-title-right {
+      position: absolute;
+      color: #fffaf6;
+      font-size: 65px;
+      font-weight: 400;
+      margin: 135px -160px;
+    }
+  }
+  &-img {
+    width: 100%;
+  }
+}
+.cards-block-description {
+  display: flex;
+  align-items: end;
+  &-paragraph {
+    color: $accent;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+  }
+}

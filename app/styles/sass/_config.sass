@@ -1,8 +1,10 @@
 // USER VARIABLES SECTION
 
-$accent: orange // Accent Color
+$accent: #fffaf6 // Accent Color
 $fontsize: 16px // Body Font Size
-$textcolor: #333 // Text Color
+$textcolor: #222222 // Text Color
+$textlogo: #A36C3B // Logo text
+$colorbtn: #341814 // btn color
 $lineheight: 1.65 // Document Line Height
 $userfont: roboto-oh5, sans-serif // User Font Family
 $systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
@@ -15,7 +17,7 @@ $gutter: $grid-gutter-width
 
 @import 'node_modules/bootstrap/scss/bootstrap-reboot.scss' // Bootstrap Reboot collection
 @import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss' // Bootstrap Breakpoints mixin
-// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss' // Optional Bootstrap Grid
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss' // Optional Bootstrap Grid
 // @import 'node_modules/bootstrap/scss/_utilities.scss' // Optional Bootstrap Utilites
 
 // FONTS LOAD SECTION
@@ -35,7 +37,7 @@ $gutter: $grid-gutter-width
 // GENERAL CSS SETTINGS
 
 ::placeholder
-	color: #666
+	color: $accent
 
 ::selection
 	background-color: $accent
