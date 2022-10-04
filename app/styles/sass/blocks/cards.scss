@@ -46,3 +46,64 @@
     letter-spacing: 0.05em;
   }
 }
+
+.card-scroll {
+  background-color: #fffaf6;
+}
+
+.scroll {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+
+  &-img {
+    display: block;
+    height: 540px;
+    margin: 100px 40px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    &-content {
+      overflow: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 35px;
+    }
+  }
+}
+
+.scroll-info {
+  padding: 95px 80px 30px 100px;
+}
+.scroll-title {
+  color: $textcolor;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 45px;
+  padding: 0 30px 5px;
+}
+
+.scroll-body {
+  list-style: none;
+  &-list {
+  }
+}
+.list-group {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+
+  &-img {
+    width: 35px;
+  }
+  &-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 30px;
+    color: $textcolor;
+  }
+}
