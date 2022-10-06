@@ -8,11 +8,9 @@
   text-transform: uppercase;
 }
 .btn-get {
-  border: 2px solid red;
+  padding: 10px 20px;
   background-color: $colorbtn;
-  border-radius: 1px;
-  //box-shadow: -5px -5px 60px #ffffff, 5px 5px 10px rgba(52, 24, 20, 0.1);
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 30px;
   line-height: 25px;
 }
