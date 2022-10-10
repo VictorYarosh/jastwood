@@ -4,44 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6fa0851-6eaf-4797-bab1-22aed75ea145" name="Changes" comment="add figure">
-      <change afterPath="$PROJECT_DIR$/app/images/dist/bg-photo-wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/bg-wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/get-consul.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/justwood-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dist/slider-photos/slider6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/src/bg-photo-wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/src/bg-wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/src/get-consul.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/src/justwood-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/request.scss" afterDir="false" />
+    <list default="true" id="e6fa0851-6eaf-4797-bab1-22aed75ea145" name="Changes" comment="mobile styled">
+      <change afterPath="$PROJECT_DIR$/app/images/dist/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dist/cards-icons/up-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/cards-icons/up-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/sass/blocks/commons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/beg-wood.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/bg-photo-wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/deck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/height.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/load.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/processing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/up-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/wall-thickness .svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/width.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-icons/window-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-scroll-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/cards-scroll-sec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/first-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/get-consul.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/justwood-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/lines-wood.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/more-products.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/sauna-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/slider-photos/slider6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/dist/title.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/deck-back.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/first-photo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dist/first-photo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/slider-photos/slider1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/slider-photos/slider2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/slider-photos/slider3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/slider-photos/slider4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/first-photo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/src/first-photo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/img-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dist/bg-wood.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dist/bg-wood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/bg-wood.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/src/bg-wood.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/parts/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_config.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_config.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/contacts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/blocks/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/blocks/title.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,38 +68,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vicktorYarosh/Desktop/jastwood/app/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/vicktorYarosh/Desktop/jastwood/dist/images/dist",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/images/dist" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/dist/images" />
       <recent name="$PROJECT_DIR$/app/images" />
-      <recent name="$PROJECT_DIR$/app/images/src/slider-photos" />
-      <recent name="$PROJECT_DIR$/app/images/dist" />
-      <recent name="$PROJECT_DIR$/app/images/dist/cards-icons" />
+      <recent name="$PROJECT_DIR$/app/images/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/images/src" />
       <recent name="$PROJECT_DIR$/dist/images" />
-      <recent name="$PROJECT_DIR$/app/images/src/slider-photos" />
+      <recent name="$PROJECT_DIR$/app/images/src" />
       <recent name="$PROJECT_DIR$/app/images/src/cards-icons" />
+      <recent name="$PROJECT_DIR$/app/images/src/slider-photos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,7 +124,9 @@
       <workItem from="1665146639186" duration="1591000" />
       <workItem from="1665148267223" duration="105000" />
       <workItem from="1665250348293" duration="11070000" />
-      <workItem from="1665304878777" duration="20966000" />
+      <workItem from="1665304878777" duration="30151000" />
+      <workItem from="1665409941875" duration="6381000" />
+      <workItem from="1665417885322" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="add button">
       <created>1664909961867</created>
@@ -131,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665064329898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mobile styled">
+      <created>1665382729801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665382729801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add button" />
     <MESSAGE value="add figure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add figure" />
+    <MESSAGE value="mobile styled" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile styled" />
   </component>
 </project>

@@ -18,6 +18,10 @@
     &-button {
       list-style: none;
     }
+    @media (max-width: 425px) {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   @media (min-width: 1024px) {
