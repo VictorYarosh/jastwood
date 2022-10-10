@@ -13,8 +13,8 @@
 .slider-card {
   display: flex;
   justify-content: space-around;
-  background-color: $textcolor;
-  padding-bottom: 100px;
+  background-color: $accent;
+  padding: 50px 0 100px;
 }
 .icon-cards {
   position: relative;
@@ -36,7 +36,7 @@
     transform-origin: center;
     transform-style: preserve-3d;
     transform: translateZ(-30vw) rotateY(0);
-    animation: carousel 50s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    animation: carousel 40s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 
     &.step-animation {
       animation: carousel 8s infinite steps(1) forwards;
@@ -60,17 +60,14 @@
     transform-origin: center;
 
     &:nth-child(1) {
-      background: #fdd94f;
       transform: rotateY(0) translateZ(35vw);
     }
 
     &:nth-child(2) {
-      background: #f87949;
       transform: rotateY(120deg) translateZ(35vw);
     }
 
     &:nth-child(3) {
-      background: #fbab48;
       transform: rotateY(240deg) translateZ(35vw);
     }
   }
@@ -105,13 +102,8 @@
   font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #f47956;
   transition: color 0.3s ease;
   user-select: none;
-
-  &:hover {
-    color: #f7a95a;
-  }
 
   // Checkbox
 
@@ -155,7 +147,6 @@
 
   > input:checked ~ .checkbox__checkbox {
     border-color: transparent;
-    background: #f47956;
     animation: jelly 0.6s ease;
 
     &:after {

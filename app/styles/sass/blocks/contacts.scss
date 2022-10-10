@@ -1,0 +1,34 @@
+.contacts-block {
+  background-color: $accent;
+}
+
+.contacts {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    border-right: 1px solid $textcolor;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 0;
+  }
+  @media (max-width: 425px) {
+    height: 100px;
+    width: 90%;
+  }
+}
+.contacts-body {
+  margin: 10px;
+  &-title {
+    text-decoration: none;
+    color: $textcolor;
+    @media (max-width: 425px) {
+      font-size: 12px;
+    }
+  }
+}

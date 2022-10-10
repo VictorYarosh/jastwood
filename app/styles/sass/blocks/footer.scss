@@ -1,0 +1,16 @@
+.footer {
+  background-color: $colorbtn;
+  background-image: url('../../../images/src/bg-photo-wood.png');
+  width: 100%;
+  height: auto;
+}
+.footer-block {
+  &-img {
+    width: 100%;
+    padding: 80px 0;
+
+    @media (max-width: 768px) {
+      padding: 40px 0;
+    }
+  }
+}

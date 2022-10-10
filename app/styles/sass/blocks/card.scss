@@ -1,0 +1,12 @@
+.card-bottom {
+  &-body {
+    text-decoration: none;
+    text-align: center;
+    .card-bottom-title {
+      color: $textcolor;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+}

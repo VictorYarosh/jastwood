@@ -1,0 +1,47 @@
+.request {
+  background: $accent;
+  border: 1px solid $textcolor;
+  padding-bottom: 150px;
+
+  @media (max-width: 425px) {
+    padding-bottom: 10px;
+  }
+  &-title {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+  }
+  &-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    position: relative;
+
+    &::before {
+      border-right: 2px solid $textcolor;
+      bottom: 0px;
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0px;
+
+      @media (max-width: 425px) {
+        position: relative;
+      }
+    }
+
+    .request-form {
+      display: contents;
+      ::placeholder {
+        color: $textcolor;
+      }
+      .form-control {
+        margin: 5px 0;
+      }
+    }
+
+    @media (max-width: 425px) {
+      padding: 0;
+    }
+  }
+}

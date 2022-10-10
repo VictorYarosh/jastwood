@@ -4,35 +4,56 @@
   justify-content: end;
   &-block {
     display: flex;
-    padding: 100px;
+    padding: 85px;
     justify-content: end;
-    background: linear-gradient(
-      96.83deg,
-      rgba(255, 246, 240, 0.15) -7.5%,
-      rgba(237, 228, 221, 0.15) 12.16%,
-      rgba(184, 154, 132, 0.14556) 29.91%,
-      rgba(241, 207, 183, 0.139344) 46.69%,
-      rgba(157, 95, 50, 0.0910112) 62.84%,
-      rgba(83, 71, 63, 0.06) 84.58%
-    );
 
     &-title-left {
       position: absolute;
       color: #fffaf6;
-      font-size: 65px;
+      font-size: 50px;
       font-weight: 400;
-      padding-top: 60px;
+
+      @media (max-width: 1024px) {
+        font-size: 40px;
+      }
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+
+      @media (max-width: 425px) {
+        margin-top: -100px;
+      }
     }
     &-title-right {
       position: absolute;
       color: #fffaf6;
-      font-size: 65px;
+      font-size: 50px;
       font-weight: 400;
-      margin: 135px -160px;
+      margin: 50px -125px;
+
+      @media (max-width: 1024px) {
+        font-size: 40px;
+        margin: 60px -35px;
+      }
+      @media (max-width: 768px) {
+        font-size: 30px;
+        margin: 40px -35px;
+      }
+
+      @media (max-width: 425px) {
+        margin: -50px -2px;
+      }
     }
-  }
-  &-img {
-    width: 100%;
+
+    @media (max-width: 1024px) {
+      padding: 40px 80px;
+    }
+    @media (max-width: 768px) {
+      padding: 20px 80px;
+    }
+    @media (max-width: 425px) {
+      padding: 100px 40px 40px;
+    }
   }
 }
 .cards-block-description {
@@ -44,6 +65,14 @@
     font-weight: 200;
     line-height: 45px;
     letter-spacing: 0.05em;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      line-height: 35px;
+    }
+    @media (max-width: 768px) {
+      line-height: 20px;
+    }
   }
 }
 
@@ -76,6 +105,12 @@
     position: relative;
     width: 100%;
 
+    @media (max-width: 1024px) {
+      height: 395px;
+    }
+    @media (max-width: 425px) {
+      margin: 0;
+    }
     &-content {
       overflow: auto;
       position: absolute;
@@ -83,12 +118,23 @@
       left: 0;
       right: 0;
       bottom: 35px;
+
+      @media (max-width: 768px) {
+        bottom: 125px;
+      }
     }
   }
 }
 
 .scroll-info {
   padding: 95px 80px 30px 100px;
+
+  @media (max-width: 1024px) {
+    padding: 70px 60px;
+  }
+  @media (max-width: 425px) {
+    padding: 10px 60px 80px;
+  }
 }
 .scroll-title {
   color: $textcolor;
@@ -96,12 +142,20 @@
   font-weight: 400;
   line-height: 45px;
   padding: 0 30px 5px;
+
+  @media (max-width: 1024px) {
+    font-size: 22px;
+  }
 }
 
 .scroll-body {
   list-style: none;
   .scroll-btn {
     margin: 40px 0;
+
+    @media (max-width: 1024px) {
+      margin: 25px 0;
+    }
   }
 }
 .list-group {
@@ -111,6 +165,10 @@
 
   &-img {
     width: 35px;
+
+    @media (max-width: 1024px) {
+      width: 22px;
+    }
   }
   &-title {
     font-size: 16px;
@@ -118,15 +176,27 @@
     line-height: 25px;
     padding: 0px 30px;
     color: $textcolor;
+
+    @media (max-width: 1024px) {
+      padding: 0px 15px;
+      line-height: 14px;
+    }
+    @media (max-width: 1024px) {
+      font-size: 12px;
+    }
   }
 }
 
 .products {
-  height: 100%;
-  background-image: url('../../../images/src/img-bg.png');
+  background-image: url('../../../images/src/bg-wood.png');
+
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 775px;
 
   &-info {
-    padding: 100px;
+    padding: 80px;
     &-description {
       color: $accent;
       font-size: 26px;
@@ -134,9 +204,18 @@
       line-height: 45px;
       padding-top: 40px;
       letter-spacing: 0.05em;
+
+      @media (max-width: 425px) {
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+    @media (max-width: 768px) {
+      padding: 35px;
     }
   }
 }
+
 .products-bocks {
   display: flex;
   justify-content: center;
@@ -154,6 +233,10 @@
       padding-top: 10px;
       width: 110px;
       height: 90px;
+
+      @media (max-width: 1024px) {
+        height: 60px;
+      }
     }
   }
 }

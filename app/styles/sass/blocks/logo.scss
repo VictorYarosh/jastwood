@@ -1,8 +1,9 @@
-.pages {
-  margin: 85px 100px;
-}
 .logo-img {
-  padding-bottom: 25px;
+  padding: 20px 0;
+  @media (max-width: 768px) {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
 }
 .logo-text {
   color: $textlogo;
@@ -13,4 +14,11 @@
   line-height: 58px;
   letter-spacing: 0.05em;
   padding-left: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+  }
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
 }
