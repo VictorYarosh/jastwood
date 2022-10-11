@@ -27,13 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 
-  // window.onscroll = function () {
-  //   scrollGetDown();
-  // };
-  // function scrollGetDown() {
-
-  // }
-
   toTopButton.addEventListener('click', topFunction);
-  // toGetDown.addEventListener('click', scrollGetDown);
 });
+
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (event) {
+    event.preventDefault();
+    const blockID = anchor.getAttribute('href');
+    document.querySelector('' + blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  });
+}
