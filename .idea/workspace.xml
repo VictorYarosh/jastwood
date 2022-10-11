@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6fa0851-6eaf-4797-bab1-22aed75ea145" name="Changes" comment="add mobile styled">
+    <list default="true" id="e6fa0851-6eaf-4797-bab1-22aed75ea145" name="Changes" comment="add styled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <workItem from="1665417885322" duration="4474000" />
       <workItem from="1665423661270" duration="633000" />
       <workItem from="1665431262279" duration="401000" />
-      <workItem from="1665431886544" duration="2806000" />
+      <workItem from="1665431886544" duration="3365000" />
     </task>
     <task id="LOCAL-00001" summary="add button">
       <created>1664909961867</created>
@@ -119,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665423686659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add styled">
+      <created>1665473321447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665473321448</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +145,7 @@
     <MESSAGE value="add figure" />
     <MESSAGE value="mobile styled" />
     <MESSAGE value="add mobile styled" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mobile styled" />
+    <MESSAGE value="add styled" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styled" />
   </component>
 </project>
