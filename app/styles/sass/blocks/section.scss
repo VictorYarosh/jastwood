@@ -14,7 +14,7 @@
   max-width: 50%;
   margin: 85px 65px;
   &-body {
-    display: contents;
+    padding: 0;
     &-button {
       list-style: none;
     }
@@ -51,17 +51,15 @@
 }
 .single {
   width: 70%;
-  padding: 65px 0;
+  padding: 100px 8px;
   &-paragraph {
     color: $textcolor;
     font-weight: 300;
     font-size: 25px;
     line-height: 45px;
     letter-spacing: 0.05em;
-    padding-bottom: 40px;
 
     @media (max-width: 1024px) {
-      padding-bottom: 0;
       font-size: 20px;
       line-height: 35px;
     }
@@ -71,7 +69,8 @@
     }
   }
   @media (max-width: 1024px) {
-    padding: 40px 0;
+    padding: 40px 5px;
+    width: 80%;
   }
   @media (max-width: 768px) {
     padding: 30px 0;
@@ -84,7 +83,7 @@
   &-block {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 80px;
 
     &-heading {
       width: 300px;
@@ -99,6 +98,7 @@
       }
       @media (max-width: 425px) {
         height: 100px;
+        width: auto;
       }
     }
     .title-description {
@@ -120,7 +120,9 @@
         width: 100%;
       }
     }
-
+    @media (max-width: 768px) {
+      padding: 15px;
+    }
     @media (max-width: 425px) {
       display: flex;
       flex-direction: column;
@@ -156,5 +158,8 @@
     @media (max-width: 425px) {
       margin: 40px 0;
     }
+  }
+  @media (max-width: 425px) {
+    padding: 20px 0;
   }
 }

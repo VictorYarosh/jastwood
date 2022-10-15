@@ -1,8 +1,11 @@
 .logo-img {
   padding: 20px 0;
+  width: 100px;
   @media (max-width: 768px) {
-    padding-bottom: 0;
     padding-top: 20px;
+  }
+  @media (max-width: 425px) {
+    width: 80px;
   }
 }
 .logo-text {

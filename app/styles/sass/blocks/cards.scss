@@ -52,7 +52,7 @@
       padding: 20px 80px;
     }
     @media (max-width: 425px) {
-      padding: 100px 40px 40px;
+      padding: 125px 40px 40px;
     }
   }
 }
@@ -122,6 +122,12 @@
       @media (max-width: 768px) {
         bottom: 125px;
       }
+      @media (max-width: 768px) {
+        bottom: 125px;
+      }
+      @media (max-width: 425px) {
+        bottom: 45px;
+      }
     }
   }
 }
@@ -133,7 +139,7 @@
     padding: 70px 60px;
   }
   @media (max-width: 425px) {
-    padding: 10px 60px 80px;
+    padding: 0;
   }
 }
 .scroll-title {
@@ -155,6 +161,9 @@
 
     @media (max-width: 1024px) {
       margin: 25px 0;
+    }
+    @media (max-width: 425px) {
+      padding-bottom: 45px;
     }
   }
 }
@@ -180,16 +189,18 @@
     @media (max-width: 1024px) {
       padding: 0px 15px;
       line-height: 14px;
-    }
-    @media (max-width: 1024px) {
       font-size: 12px;
+    }
+    @media (max-width: 425px) {
+      padding: 20px 20px 0;
+      font-size: 14px;
     }
   }
 }
 
 .products {
-  background-image: url('../../../images/src/bg-wood.png');
-
+  background-image: url('../../../images/src/wood.png');
+  padding: 30px 0;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,10 +213,11 @@
       font-size: 26px;
       font-weight: 400;
       line-height: 45px;
-      padding-top: 40px;
+      padding: 5px;
       letter-spacing: 0.05em;
 
       @media (max-width: 425px) {
+        //margin: 0;
         font-size: 14px;
         line-height: 30px;
       }
@@ -213,6 +225,13 @@
     @media (max-width: 768px) {
       padding: 35px;
     }
+    @media (max-width: 425px) {
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 425px) {
+    height: 450px;
   }
 }
 

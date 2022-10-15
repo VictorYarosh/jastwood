@@ -34,6 +34,7 @@
       display: contents;
       ::placeholder {
         color: $textcolor;
+        opacity: 0.2;
       }
       .form-control {
         margin: 5px 0;
